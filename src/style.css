@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+    /* background-color: #0e1625; */
+}
+
+body {
+    background-color: #0e1625;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 17vh 1fr;
+}
+
+header img {
+    height: 50px;
+}
+
+header {
+    background-color: #0e1625;
+    color: #fff;
+    grid-area: 1 / 1 / span 1 / span 3;
+    /* display: inline-flex; */
+}
+
+header .bx-menu-alt-right {
+    display: none;
+    color: #f20135;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 7px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+li img {
+    height: 15px !important;
+}
+
+li p {
+    font-size: 0.58rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #d5d5d5;
+}
+
+li p:hover {
+    color: #fff;
+}
+
+li a {
+    text-decoration: none;
+}
+
+/* li a:active {
+    text-decoration: none;
+} */
+
+header .header-fword {
+    color: #f20135;
+    font-size: 1rem;
+}
+
+header .resume {
+    font-size: 0.7rem;
+    font-weight: bolder;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+}
+
+#intro {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 3;
+    background-color: #0e1625;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro .container {
+    width: 90%;
+    display: block;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#intro .container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #d5d5d5;
+    letter-spacing: 2px;
+}
+
+#intro .container .f-letter {
+    font-size: 4.5rem;
+}
+
+#intro .container .my-name {
+    color: #f20135;
+}
+
+#intro .container .full-stack {
+    color: #d5d5d5;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-shadow: 2px 2px 10px #fff;
+}
+
+#intro .container button {
+    padding: 12px 4px;
+    width: 150px;
+    font-size: .65rem;
+    margin: 20px 5px;
+    border-radius: 5px;
+}
+
+#intro .container .work-together:hover {
+    background-color: #f20135;
+    color: #d5d5d5;
+}
+
+#intro .container .check-project {
+    background-color: transparent;
+    color: #d5d5d5;
+    border: 1px solid #d5d5d5;
+}
+
+#intro .container .check-project:hover {
+    background-color: #d5d5d5;
+    color: black;
+}
+
+#service {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 1;
+    background-color: #0e1625;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#service .service-title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+#service p {
+    color: rgb(138, 138, 138);
+}
+
+#service .service-title span {
+    color: #f20135;
+    
+}
+
+#service .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0px 40px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+#service .flex-items {
+    max-width: 300px;
+    min-width: 120px;
+    text-align: center;
+    align-self: end;
+}
+
+#service .flex-items h2 {
+    margin-top: 40px;
+    color: rgb(212, 212, 212);
+    font-weight: 100;
+    line-height: 1.3;
+    font-size: 1.2rem;
+}
+
+#service .service-title p {
+    color: rgb(138, 138, 138)
+}
+
+#service .flex-items p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+#service .flex-items .responsive {
+    height: 160px;
+}
+
+#service .flex-items .design {
+    height: 200px;
+}
+
+#service .flex-items .team {
+    height: 220px;
+}
+
+#skills {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0e1625;
+    color: white;
+}
+
+#skills img {
+    height: 50px;
+}
+
+
+#skills .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0px 60px;
+    max-width: 800px;
+}
+
+#skills .skill-title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    margin: 60px 0px;
+
+}
+
+#skills .skill-title h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#skills .skill-title p {
+    color: rgb(138, 138, 138)
+}
+
+#skills .skill-title span {
+    color: #f20135;
+}
+
+#skills .flex-items p {
+    font-size: 1rem;
+    color: rgb(138, 138, 138);
+    
+}
+
+.side-left {
+    position: fixed;
+    bottom: 0px;
+    left: 80px;
+}
+
+.side-left .bx {
+    font-size: 20px;
+    color: #ccd6f6;
+}
+
+.side-left ul {
+    list-style: none;
+}
+
+.side-left ul li {
+    margin-bottom: 30px;
+}
+
+.side-left .vertical-line {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 120px;
+    margin: 0px auto;
+    background-color: #ccd6f6;
+}
+
+.side-right {
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+}
+
+.side-right a {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color:rgba(204, 214, 246, 0.8);
+    text-decoration: none;
+}
+
+.side-right .vertical-line {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 120px;
+    margin: 0px auto;
+    background-color: #ccd6f6;
+}
+
+
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+
+    html {
+        font-size: 8px;
+    }
+
+    header .bx-menu-alt-right {
+        display:block;
+        font-size: 3rem;
+        z-index: 300;
+    }
+
+    header nav {
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header ul {
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 75%;
+        height: 100%;
+        z-index: 200;
+        background-color: #0e1625;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+    }
+
+    header ul li {
+        text-align: center;
+    }
+
+    header .header-fword {
+        font-size: 1.5rem;
+    }
+
+    header ul li p {
+        font-size: 1.2rem;
+    }
+
+    #intro .container button {
+        width: 45%;
+    }
+
+    #intro .container h1 {
+        line-height: 0.9;
+        font-size: 1.5rem;
+    }
+
+    #intro .container {
+        width: 70%;
+    }
+
+    #intro .container .f-letter {
+        font-size: 3rem;
+    }
+
+    #service {
+        width: 70%;
+        justify-self: center;
+    }
+
+    #service .service-title h1 {
+        font-size: 1.3rem;
+    }
+
+    #service .service-title p {
+        font-size: 0.8rem;
+    }
+
+    #service .flex-items {
+        margin: 40px 0px;
+        padding: 5px;
+    }
+    
+    #service .flex-items img {
+        height: 90px !important;
+    }
+
+    #service .flex-items h2 {
+        font-size: 1rem;
+    }
+
+    #service .flex-items p {
+        font-size: 0.8rem;
+    }
+
+    #skills .skill-title h1 {
+        font-size: 1.3rem;
+    }
+
+    #skills .skill-title p {
+        font-size: 0.8rem;
+    }
+
+    #skills .flex-container p {
+        font-size: 0.8rem;
+    }
+
+    #skills .flex-container img {
+        height: 40px;
+    }    
+    
+    .side-left {
+        left: 15px;
+    }
+
+    .side-right {
+        right: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+
+    #service .service-title {
+        font-size: 1.4rem;
+        margin-bottom: 60px;
+    }
+
+    #intro .container h1 {
+        line-height: 1;
+    }
+
+    #intro .container .full-stack {
+        font-size: 1rem;
+    }
+
+    #skills .skill-title h1{
+        /* font-size: 2rem; */
+    }
+
+    .side-left {
+        left: 30px;
+    }
+
+    .side-right {
+        right: 30px;
+    }
+
+    
+}
