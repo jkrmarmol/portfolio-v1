@@ -3,7 +3,7 @@ function SideLeftDesign() {
         <div orientation="left" className="side-left">
             <ul>
                 <li>
-                    <a href="https://github.com/jkrmarmol">
+                    <a href="https://github.com/jkrmarmol" target="_blank">
                         <i className='bx bxl-github'></i>
                     </a>
                 </li>
