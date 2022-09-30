@@ -6,12 +6,14 @@ import Service from './Pages/Service';
 import Skills from './Pages/Skills';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './style.css';
+import SidebarModal from './Pages/SidebarModal';
 
 function App() {
     return (
         <div className='container'>
             <Router>
                 <Header />
+                <SidebarModal />
                 <SideLeftDesign />
                 <SideRightDesign />
 

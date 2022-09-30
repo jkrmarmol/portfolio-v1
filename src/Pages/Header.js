@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-
 function Header() {
     return (
         <header>
@@ -24,17 +23,19 @@ function Header() {
                         </NavLink>
                     </li>
                     <li>
-                        <a href="https://m.me/jkrmarmol" target="_blank">
+                        <a href="https://m.me/jkrmarmol" target="_blank" rel="noreferrer">
                             <p><span className="header-fword">C</span>ontacts</p>
                         </a>
                     </li>
                     <li className="nav-resume">
-                        <a href="#">
+                        <NavLink to="/">
                             <p className="resume">Resume</p>
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
-                <i className='bx bx-menu-alt-right' id="menu-logo"></i>
+                <button class="btn button-sidebar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <i className='bx bx-menu-alt-right' id="menu-logo"></i>
+                </button>
             </nav>
         </header>
     );
