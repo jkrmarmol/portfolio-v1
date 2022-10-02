@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom';
 function SidebarModal() {
   return (
-    <div className="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div className="offcanvas offcanvas-start text-bg-dark" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
       <div className="offcanvas-header">
-        <di></di>
+        <div></div>
         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
