@@ -1,10 +1,17 @@
 import ResponsiveImage from '../Assets/Images/responsive.effb831b.svg';
 import DesignImage from '../Assets/Images/design.6bfd83a4.svg';
 import TeamImage from '../Assets/Images/team.62482db6.svg';
+import { motion, useScroll } from "framer-motion"
 
 function Service() {
+  const { scrollYProgress } = useScroll();
   return (
-    <section id="service">
+    <motion.section
+      id="service"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 0.9 }}
+      transition={{ duration: 0.5, type: "spring", mass: 0.5 }}
+    >
       <div className="service-title">
           <h1>What I <span>offer?</span></h1>
           <p>Create positive user experience</p>
@@ -26,7 +33,7 @@ function Service() {
           <p>Can work as part of a team and has outstanding collaboration skills.</p>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

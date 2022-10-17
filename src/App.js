@@ -9,6 +9,7 @@ import './style.css';
 import SidebarModal from './Pages/SidebarModal';
 import { Provider } from 'react-redux';
 import { store } from './store';
+import { motion } from 'framer-motion';
 
 function App() {
   return (

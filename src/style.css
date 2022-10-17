@@ -93,7 +93,6 @@ header .button-sidebar {
 #intro {
     grid-row: 2 / span 1;
     grid-column: 1 / span 3;
-    background-color: #0e1625;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -160,7 +159,6 @@ header .button-sidebar {
 #service {
     grid-column: 1 / span 3;
     grid-row: 2 / span 1;
-    background-color: #0e1625;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -237,7 +235,6 @@ header .button-sidebar {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #0e1625;
     color: white;
 }
 
@@ -405,7 +402,6 @@ header .button-sidebar {
         width: 75%;
         height: 100%;
         z-index: 200;
-        background-color: #0e1625;
         align-items: center;
         justify-content: center;
         visibility: hidden;

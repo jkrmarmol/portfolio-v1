@@ -1,7 +1,14 @@
+import { motion } from 'framer-motion';
+
 function SideRightDesign() {
   return (
     <div orientation="right" className="side-right">
-      <a href="mailto:jkurtrussellemarmo@gmail.com">jkurtrussellemarmol@gmail.com</a>
+      <motion.a 
+        href="mailto:jkurtrussellemarmo@gmail.com"
+        whileHover={{ scale: 1.2 }}
+      >
+      jkurtrussellemarmol@gmail.com
+      </motion.a>
       <div className="vertical-line"></div>
     </div>
   );
