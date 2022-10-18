@@ -87,6 +87,11 @@ At the time of writing I added [Framer Motion](https://www.framer.com/motion/) l
 
 
 
+### Lighthouse Report
+![Lighthouse]
+
+see full report [here][Lightouse-Report]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -99,3 +104,5 @@ At the time of writing I added [Framer Motion](https://www.framer.com/motion/) l
 [Framer-url]: https://www.framer.com/motion/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[Lighthouse]: https://i.postimg.cc/QCRHwxXV/portfolio-v1-lighthouse.png
+[Lightouse-Report]: https://drive.google.com/file/d/1fkZphLfLQCg0h2g-f3XHy-PNt6Vk3Psz/view?usp=sharing
