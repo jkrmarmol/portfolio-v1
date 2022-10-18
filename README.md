@@ -23,7 +23,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jkrmarmol/v1">
+  <a href="https://github.com/jkrmarmol/portfolio-v1">
     <img src="https://jkrmarmol.netlify.app/static/media/kmlogo_wobg.c4e5f523a4f045f3c1fc.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -35,9 +35,9 @@
     <br />
     <a href="https://jkrmarmol.netlify.app/" target="_blank">View Demo</a>
     ·
-    <a href="https://github.com/jkrmarmol/v1/issues">Report Bug</a>
+    <a href="https://github.com/jkrmarmol/portfolio-v1/issues">Report Bug</a>
     ·
-    <a href="https://github.com/jkrmarmol/v1/issues">Request Feature</a>
+    <a href="https://github.com/jkrmarmol/portfolio-v1/issues">Request Feature</a>
   </p>
 </div>
 
@@ -48,7 +48,7 @@
 
 ![React_Portfolio](https://i.postimg.cc/Y0Hq9KYy/portfolio-webiste.png)
 
-At the time of writing I added [Framer Motion](https://www.framer.com/motion/) library to animate my react portfolio. Check my git log [here](https://github.com/jkrmarmol/portfolio/commits/main)
+At the time of writing I added [Framer Motion](https://www.framer.com/motion/) library to animate my react portfolio. Check my git log [here](https://github.com/jkrmarmol/portfolio-v1/commits/main)
 
 <hr />
 
@@ -72,7 +72,7 @@ At the time of writing I added [Framer Motion](https://www.framer.com/motion/) l
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/jkrmarmol/portfolio.git
+    git clone https://github.com/jkrmarmol/portfolio-v1.git
     ```
 2.  Install NPM packages
     ```sh
