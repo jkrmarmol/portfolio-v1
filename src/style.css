@@ -283,7 +283,7 @@ header .button-sidebar {
 
 .side-left {
     position: fixed;
-    bottom: 0px;
+    bottom: -20px;
     left: 80px;
 }
 

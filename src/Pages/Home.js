@@ -2,23 +2,34 @@ import { motion } from 'framer-motion';
 
 function Home() {
   return (
-    <motion.section 
-      id="intro"
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 0.9 }}
-      transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
-    >
+    <section id="intro">
       <div className="container">
-        <h1>
+        <motion.h1
+          initial={{ x: -900, scale: 0.8, opacity: 0 }}
+          transition={{ duration: 1, type: 'spring'}}
+          animate={{ x: 0, scale: 1, opacity: 1}}
+        >
           <span className="f-letter">H</span>ey, <span className="f-letter">I</span>'m 
           <span className="my-name">
             <span className="f-letter"> K</span>urt
             <span className="f-letter"> R</span>usselle
             <span className="f-letter"> M</span>armol.
           </span>
-        </h1>
-        <p className="full-stack">I'm an aspiring Full-Stack Developer</p>
-        <div className="intro-button">
+        </motion.h1>
+        <motion.p
+          className="full-stack"
+          initial={{ x: 900, scale: 0.8, opacity: 0 }}
+          transition={{ duration: 1, type: 'spring'}}
+          animate={{ x: 0, scale: 1, opacity: 1}}
+        >
+          I'm an aspiring Full-Stack Developer
+        </motion.p>
+        <motion.div
+          className="intro-button"
+          initial={{ y: 300, opacity: 0 }}
+          animate={{ y: 0, opacity: 1}}
+          transition={{ duration: 1.2}}
+        >
           <motion.button
             className="work-together"
             whileHover={{ scale: 1.07 }}
@@ -33,9 +44,9 @@ function Home() {
           >
           Check out my project
           </motion.button>
-        </div>
+        </motion.div>
       </div>
-    </motion.section>
+    </section>
   );
 }
 
